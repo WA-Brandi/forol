@@ -128,8 +128,6 @@
                             {include file='catalog/_partials/product-discounts.tpl'}
                             {/block}
 
-                            <a href="{url entity='cms' id=6 id_lang=1}" class="table-sizes-link"><img src="{$urls.theme_assets}svg/ruler-combined-red.svg" alt="" />{l s='Tabela rozmiarów' d='Shop.Theme.Catalog' }</a>
-
                             {block name='product_add_to_cart'}
                             {include file='catalog/_partials/product-add-to-cart.tpl'}
                             {/block}
