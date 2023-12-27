@@ -10704,7 +10704,9 @@ body#checkout #footer {
 .product-information .card-block p {}
 
 .product-information .manufacturer-logo {
-    height: 35px
+    max-height: 110px;
+    padding: 10px;
+    margin-bottom: 24px;
 }
 
 .product-information .product-description img {
