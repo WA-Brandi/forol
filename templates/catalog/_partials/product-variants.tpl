@@ -80,7 +80,7 @@
          {/if}
        </div>
        {if $id_attribute_group == 1}
-         <a href="{url entity='cms' id=6 id_lang=1}" class="table-sizes-link"><img src="{$urls.theme_assets}svg/ruler-combined-red.svg" alt="" />{l s='Tabela rozmiarów' d='Shop.Theme.Catalog' }</a>
+         <a href="#description" class="table-sizes-link"><img src="{$urls.theme_assets}svg/ruler-combined-red.svg" alt="" />{l s='Tabela rozmiarów' d='Shop.Theme.Catalog' }</a>
        {/if}
      </div>
    {/if}

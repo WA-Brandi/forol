@@ -233,7 +233,7 @@
                 </div>
             </div>
 
-            <div class="product-fullwidth-content">
+            <div id="description" class="product-fullwidth-content">
                 {block name='product_description'}
                 <div class="pfc-cont product-description" itemprop="description">
                     <h2><img src="{$urls.theme_assets}svg/file-red.svg" alt="" />{l s='Description' d='Shop.Theme.Catalog'}</h2>
