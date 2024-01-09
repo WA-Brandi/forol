@@ -10705,7 +10705,7 @@ body#checkout #footer {
 .product-information .card-block p {}
 
 .product-information .manufacturer-logo {
-    max-height: 110px;
+    max-height: 80px;
     padding: 10px;
     margin-bottom: 24px;
 }
@@ -13320,7 +13320,7 @@ input[type=number]::-webkit-outer-spin-button {
 .product-details-block {}
 .product-details-block h1 {text-align: left; font-size: 24px; line-height: 26px; color: #000; font-weight: 500; margin-bottom: 24px;}
 
-.table-sizes-link {color: #000; font-size: 14px; font-weight: 500; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; margin-bottom: 35px;}
+.table-sizes-link {color: #000; font-size: 14px; font-weight: 500; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; margin: 15px 0 35px;}
 .table-sizes-link img {max-height: 20px; margin-right: 8px;}
 
 .product-add-to-cart {}
