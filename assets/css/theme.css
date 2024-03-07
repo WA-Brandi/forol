@@ -8166,7 +8166,7 @@ textarea:active:-moz-placeholder {
 }
 
 .header-top .search-widget form input[type=text] {
-    min-width: 295px;
+    min-width: 300px;
     width: 100%
 }
 
