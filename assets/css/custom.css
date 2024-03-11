@@ -14,7 +14,7 @@
     padding: 4px;
 }
 
-.coupon-wrapper__inner__row{
+.coupon-wrapper__inner_row{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +23,6 @@
     text-transform: uppercase;
 }
 
-.coupon-wrapper__inner__row svg{
+.coupon-wrapper__inner_row svg{
     margin-right: 4px;
 }
