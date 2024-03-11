@@ -87,6 +87,7 @@
 
         <div class="coupon-wrapper">
           <div class="coupon-wrapper__inner">
+            { CartRule::getProductRules($product.id_product) }
             <p class="mb-0 text-gray-dark"><span>PRICE</span> z kodem: TEST</p>
             <div class="coupon-wrapper__inner_row">
               <svg width="16" height="16" viewBox="0 0 16 16">     
