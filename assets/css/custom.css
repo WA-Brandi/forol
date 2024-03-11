@@ -4,10 +4,23 @@
  */
 
 .coupon-wrapper{
+    margin-top: 16px;
     border: 1px dashed #ff0000;
     padding: 4px;
 }
 
 .coupon-wrapper__inner{
     background: #ff00000a;
+    padding: 4px;
+}
+
+.coupon-wrapper__inner__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.coupon-wrapper__inner__row svg{
+    margin-right: 4px;
 }
