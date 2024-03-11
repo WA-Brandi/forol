@@ -19,10 +19,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 4px;
-    font-size: 12px;
-    text-transform: uppercase;
 }
 
 .coupon-wrapper__inner_row svg{
     margin-right: 4px;
+}
+
+.coupon-wrapper__inner_row p{
+    font-size: 12px;
+    text-transform: uppercase;
 }
