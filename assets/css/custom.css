@@ -2,3 +2,12 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+
+.coupon-wrapper{
+    border: 1px dashed #ff0000;
+    padding: 4px;
+}
+
+.coupon-wrapper__inner{
+    background: #ff00000a;
+}
