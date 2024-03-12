@@ -88,11 +88,10 @@
         <div class="coupon-wrapper">
           <div class="coupon-wrapper__inner">
           {php}
-            $cartRule = new CartRule(44);
-            $this->assign('prod_cart_rule',$cartRule);
+            echo new CartRule(44);
           {/php}
           {* {assign var=prod_cart_rule value=new CartRule(44)} *}
-            {$prod_cart_rule|print_r}
+            {* {$prod_cart_rule|print_r} *}
             {* {debug} *}
             {* {$this->context->cart->getCartRules()} *}
             <p class="mb-0 text-gray-dark"><span>PRICE</span> z kodem: TEST</p>
