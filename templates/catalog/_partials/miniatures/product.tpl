@@ -87,7 +87,7 @@
 
         <div class="coupon-wrapper">
           <div class="coupon-wrapper__inner">
-            {assign cart_rule Cart::getCartRules()}
+            {assign var='cart_rule' value=CartRule::getCustomerCartRules($this->context->language->id, 0, false)}
             {$cart_rule}
             {* {debug} *}
             {* {$this->context->cart->getCartRules()} *}
