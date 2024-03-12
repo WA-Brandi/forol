@@ -23,8 +23,11 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {block name='product_voucher'}
-  {if $cart.discounts|count > 0 && !$product.has_discount}
-    {assign var="discount_id" value=44}
+  {assign var="discount_id" value=44}
+  {assign var="client_id" value=792}
+  {assign var="discount" value=CartRule::getCustomerHighlightedDiscounts($language.id,$client_id,0)}
+  {$discount}
+  {* {if $cart.discounts|count > 0 && !$product.has_discount}
     {foreach from=$cart.discounts item=discount}
       {if $discount.id_cart_rule == $discount_id}
       <div class="coupon-wrapper">
@@ -42,5 +45,5 @@
       </div>
       {/if}
     {/foreach}
-  {/if}
+  {/if} *}
 {/block}
