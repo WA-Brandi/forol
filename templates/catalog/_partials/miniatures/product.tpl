@@ -87,9 +87,9 @@
 
         <div class="coupon-wrapper">
           <div class="coupon-wrapper__inner">
-          {* {assign var=prod_cart_rules value=CartRule::getCustomerCartRules($this->context->language->id, 0)}
-            {$prod_cart_rules[0]|print_r} *}
-            {debug}
+          {assign var=prod_cart_rule value=CartRule(44)}
+            {$prod_cart_rule|print_r}
+            {* {debug} *}
             {* {$this->context->cart->getCartRules()} *}
             <p class="mb-0 text-gray-dark"><span>PRICE</span> z kodem: TEST</p>
             <div class="coupon-wrapper__inner_row">
