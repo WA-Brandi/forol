@@ -87,9 +87,6 @@
 
         <div class="coupon-wrapper">
           <div class="coupon-wrapper__inner">
-          {php}
-            echo new CartRule(44);
-          {/php}
           {* {assign var=prod_cart_rule value=new CartRule(44)} *}
             {* {$prod_cart_rule|print_r} *}
             {* {debug} *}
