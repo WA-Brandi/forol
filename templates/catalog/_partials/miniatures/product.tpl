@@ -87,7 +87,7 @@
 
         <div class="coupon-wrapper">
           <div class="coupon-wrapper__inner">
-          {* {assign var=prod_cart_rule value=new CartRule(44)} *}
+            {Cart::getCartRules()}
             {* {$prod_cart_rule|print_r} *}
             {* {debug} *}
             {* {$this->context->cart->getCartRules()} *}
