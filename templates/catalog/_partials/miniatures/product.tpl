@@ -89,7 +89,7 @@
           <div class="coupon-wrapper__inner">
           {* {assign var=prod_cart_rules value=CartRule::getCustomerCartRules($this->context->language->id, 0)}
             {$prod_cart_rules[0]|print_r} *}
-            {$this->context->cart->getCartRules()}
+            {$this->context->cart->getCartRules()|print_r}
             <p class="mb-0 text-gray-dark"><span>PRICE</span> z kodem: TEST</p>
             <div class="coupon-wrapper__inner_row">
               <svg width="16" height="16" viewBox="0 0 16 16">     
