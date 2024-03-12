@@ -85,7 +85,8 @@
         {/block}
 *}
 
-        {if $cart.discounts|count > 0}
+        {$product|print_r}
+        {if $cart.discounts|count > 0 && !$product.has_discount}
           {assign var="discount_id" value=44}
           {foreach from=$cart.discounts item=discount}
             {if $discount.id_cart_rule == $discount_id}
