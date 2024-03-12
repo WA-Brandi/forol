@@ -116,6 +116,8 @@
         {/if}
         {/block}
 
+        {include file="catalog/_partials/miniatures/voucher.tpl"}
+
         {block name='product_buttons'}
         {if $settings.add_to_cart || $settings.view_more || $settings.displayProductListFunctionalButtons}
             <form type="post" action="{$cart_page_url}" class="product-item-buttons">
