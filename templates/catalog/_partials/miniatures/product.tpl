@@ -87,8 +87,8 @@
 
         <div class="coupon-wrapper">
           <div class="coupon-wrapper__inner">
-          {assign var=prod_cart_rules value=CartRule::getProductRules($product.id_product)}
-            {$prod_cart_rules nofilter}
+          {* {assign var=prod_cart_rules value=CartRule::getProductRules($product.id_product)}
+            {$prod_cart_rules nofilter} *}
             <p class="mb-0 text-gray-dark"><span>PRICE</span> z kodem: TEST</p>
             <div class="coupon-wrapper__inner_row">
               <svg width="16" height="16" viewBox="0 0 16 16">     
