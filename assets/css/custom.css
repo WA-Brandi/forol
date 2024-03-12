@@ -12,12 +12,13 @@
 }
 
 #product .coupon-wrapper{
-    margin: 0;
+    margin: 0 0 15px 0;
 }
 
 .coupon-wrapper__inner{
     background: #ff00000a;
     padding: 4px;
+    margin-bottom: 0px !important;
 }
 
 .coupon-wrapper__inner_row{
