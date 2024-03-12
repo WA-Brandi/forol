@@ -87,7 +87,11 @@
 
         <div class="coupon-wrapper">
           <div class="coupon-wrapper__inner">
-          {assign var=prod_cart_rule value=CartRule(44)}
+          {php}
+            $cartRule = new CartRule(44);
+            $this->assign('prod_cart_rule',$cartRule);
+          {/php}
+          {* {assign var=prod_cart_rule value=new CartRule(44)} *}
             {$prod_cart_rule|print_r}
             {* {debug} *}
             {* {$this->context->cart->getCartRules()} *}
