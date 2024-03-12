@@ -85,7 +85,7 @@
         {/block}
 *}
 
-        {include file="catalog/_partials/miniatures/voucher.tpl" product=$product cart=$cart}
+        {include file="catalog/_partials/miniatures/voucher.tpl"}
 
       </div>
 

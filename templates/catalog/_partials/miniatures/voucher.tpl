@@ -23,6 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {block name='product_voucher'}
+  {debug}
   {if $cart.discounts|count > 0 && !$product.has_discount}
     {assign var="discount_id" value=44}
     {foreach from=$cart.discounts item=discount}
