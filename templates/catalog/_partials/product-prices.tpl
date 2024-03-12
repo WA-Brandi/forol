@@ -110,5 +110,6 @@
         {/if}
       {/if}
     </div>
+    {include file="catalog/_partials/miniatures/voucher.tpl"}
   </div>
 {/if}

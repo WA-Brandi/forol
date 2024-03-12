@@ -4,9 +4,15 @@
  */
 
 .coupon-wrapper{
+    margin: 0 auto;
+    max-width: 240px;
     margin-top: 16px;
     border: 1px dashed #ff0000;
     padding: 4px;
+}
+
+#product .coupon-wrapper{
+    margin: 0;
 }
 
 .coupon-wrapper__inner{
