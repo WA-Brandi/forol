@@ -26,7 +26,11 @@
   {assign var="discount_id" value=44}
   {assign var="client_id" value=792}
   {assign var="cart_id" value=1459}
-  {CartRule::getCustomerHighlightedDiscounts($language.id,$client_id,new Cart($cart_id, $language.id))}
+  {php}
+    $objCart = new Cart($cart_id, $language.id);
+    $this->assign('cart_test',$objCart);
+  {/php}
+  {CartRule::getCustomerHighlightedDiscounts($language.id,$client_id,$cart_test)}
   {* {if $cart.discounts|count > 0 && !$product.has_discount}
     {foreach from=$cart.discounts item=discount}
       {if $discount.id_cart_rule == $discount_id}
