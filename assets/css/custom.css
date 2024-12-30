@@ -9,6 +9,7 @@
     margin-top: 16px;
     border: 1px dashed #ff0000;
     padding: 4px;
+    cursor: pointer;
 }
 
 #product .coupon-wrapper{
