@@ -24,6 +24,56 @@
 *}
     {block name='header_banner'}
     <div class="header-banner">
+        <div class="baner_promo">
+            <span class="baner_promo_text">{l s='Dołącz do <strong>FOROL KLUB</strong> i zyskaj 10% rabatu z kodem: <strong>NOWYROK</strong>' d='Shop.Theme.Global'}</span>
+        </div>
+        {literal}
+        <style>
+
+        .baner_promo{
+        display: flex;
+            flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        gap: 10px;
+        background: #FFF5F5;
+        }
+
+        .baner_promo_text{
+        display: flex;
+            flex-wrap: wrap;
+        }
+        .baner_promo_text strong:first-child{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 20px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        text-decoration-line: underline;
+        padding: 0 5px;
+        color: #000000;
+        }
+
+        .baner_promo_text strong:last-child{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 20px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        padding: 0 5px;
+        color: #000000;
+        }
+
+        </style>
+        {/literal}
         {hook h='displayBanner'}
     </div>
     {/block}
